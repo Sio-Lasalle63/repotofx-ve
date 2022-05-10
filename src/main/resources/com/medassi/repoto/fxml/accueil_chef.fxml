@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import javafx.scene.text.*?>
-<?import javafx.geometry.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.TextArea?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
-<VBox alignment="CENTER" prefHeight="349.0" prefWidth="448.0" spacing="20.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.medassi.repoto.controllers.AccueilChefController">
+<VBox alignment="CENTER" prefHeight="349.0" prefWidth="448.0" spacing="20.0" style="-fx-background-color: lightBlue;" stylesheets="@../css/main.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.medassi.repoto.controllers.AccueilChefController">
     <children>
         <Label text="Accueil Chef d'atelier">
         <font>
@@ -22,10 +17,10 @@
       <Label fx:id="zone_accueil" maxWidth="1.7976931348623157E308" text="Label" />
       <HBox alignment="CENTER" fillHeight="false" prefWidth="200.0" spacing="10.0">
          <children>
-            <Button mnemonicParsing="false" onAction="#cliqueAddClient" style="-fx-background-color: lightblue;" text="+ Client" />
-            <Button mnemonicParsing="false" onAction="#cliqueAddVehicule" style="-fx-background-color: lightblue;" text="+ Vehicule" />
-            <Button mnemonicParsing="false" onAction="#cliqueAddMaintenance" style="-fx-background-color: lightblue;" text="+ Maintenance" />
-            <Button mnemonicParsing="false" onAction="#cliqueDeconnexion" style="-fx-background-color: lightblue;" text="Déconnexion" />
+            <Button mnemonicParsing="false" onAction="#cliqueAddClient" text="+ Client" />
+            <Button mnemonicParsing="false" onAction="#cliqueAddVehicule" text="+ Vehicule" />
+            <Button mnemonicParsing="false" onAction="#cliqueAddMaintenance" text="+ Maintenance" />
+            <Button mnemonicParsing="false" onAction="#cliqueDeconnexion" text="Déconnexion" />
          </children>
       </HBox>
     </children>

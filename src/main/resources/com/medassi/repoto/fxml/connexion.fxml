@@ -8,7 +8,7 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox alignment="CENTER" onKeyPressed="#keyPressed" prefHeight="155.0" prefWidth="278.0" spacing="20.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.medassi.repoto.controllers.ConnexionController">
+<VBox alignment="CENTER" onKeyPressed="#keyPressed" prefHeight="155.0" prefWidth="278.0" stylesheets="@../css/main.css" spacing="20.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.medassi.repoto.controllers.ConnexionController">
    <children>
       <ImageView fitHeight="150.0" fitWidth="228.0" pickOnBounds="true" preserveRatio="true">
          <image>
